@@ -36,17 +36,39 @@ The Payroll Management System is designed to securely manage payroll operations 
 - **Backend:**
   Node.js, Express.js, MySQL.
 
-- **Other Tools:**postman, corn jobs.
+- **Other Tools:**
+  postman, corn jobs.
 
 -**SQL Database:**
 In order to create database, run the files in folder:payroll-DB
 
-- **To run the application in backend:**
-  cd payroll-backend
-  npm install
-  node app.js
+## To run the application:
 
--**To run the frontend:**
-cd payroll-frontend
-npm install
-npm start
+### Backend
+1. Navigate to the backend folder:
+    ```bash
+    cd payroll-backend
+    ```
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the backend server:
+    ```bash
+    node app.js
+    ```
+
+---
+### Frontend
+
+1. Navigate to the frontend folder:
+    ```bash
+    cd payroll-frontend
+    ```
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the frontend app:
+    ```bash
+    npm start
